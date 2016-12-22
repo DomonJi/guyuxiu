@@ -1,0 +1,77 @@
+/*
+ * index.css
+ * Copyright (C) 2016 disoul
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+@import "reset";
+@import "header";
+@import "content";
+@import "info";
+* {
+    box-sizing: border-box;
+}
+
+#common_box {
+    width: 230px;
+    position: fixed;
+    right: 0;
+    top: 40%;
+    border: 0px solid #789;
+    background: #fff;
+    z-index: 78
+}
+
+#cli_on {
+    width: 30px;
+    height: 350px;
+    float: left;
+    cursor: pointer;
+    background: #fff;
+    text-align: center;
+    line-height: 20px
+}
+
+.flt-img {
+    cursor: pointer;
+}
+
+.box1 {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+}
+
+.box2 {
+    transition: all .3s;
+    position: absolute;
+    left: 45%;
+    top: 75%;
+}
+
+#footer {
+    clear: both;
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+.box2:hover {
+    transform: scale(1.08);
+    transform-origin: 60% 10%;
+}
+
+#pic {
+    transition: all .5s;
+    opacity: 0.9;
+}
+
+#Image6 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
