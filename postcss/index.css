@@ -72,6 +72,12 @@
 
 #Image6 {
     position: absolute;
-    top: 0;
+    top: 0px;
+    right: 0;
+}
+
+#Image7 {
+    position: absolute;
+    top: 78px;
     right: 0;
 }
